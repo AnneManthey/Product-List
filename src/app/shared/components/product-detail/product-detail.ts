@@ -16,4 +16,8 @@ Seitentasten fuer schnelles Reagieren.`,
       stock: 120,
       price: 2500000,
     }
+
+    deleteDetail(){
+      this.detail.name = "";
+    }
 }
