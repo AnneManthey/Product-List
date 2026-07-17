@@ -12,9 +12,11 @@ export class Header {
   
   path = "";
   btn_text = "Neues Produkt";
+
   ngOnInit(){
-    this.path = "detail";
-    if(this.path == ""){
+    this.path = "";
+
+    if(this.path == "detail"){
       this.btn_text = "Zurück zur Liste";
     }
   }
