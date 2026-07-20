@@ -8,7 +8,6 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './product-detail.scss',
 })
 export class ProductDetail {
-
   private route = inject(ActivatedRoute);
 
   ngOnInit() {
@@ -24,9 +23,10 @@ Seitentasten fuer schnelles Reagieren.`,
     specs: 'dpi: 6400, cable length: 1.8m, color: Schwarz',
     stock: 120,
     price: 2500000,
-  }
+  };
 
   deleteDetail() {
-    this.detail.name = "";
+    this.detail.name = '';
   }
+
 }
